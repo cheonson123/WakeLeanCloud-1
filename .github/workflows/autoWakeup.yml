@@ -10,7 +10,7 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron:  "12 1/ * * ?"
+    - cron:  "15 */1  * * ?"
     # github的cron并不包含秒，所以要去掉第一位；星期的设置也是不同的，但是暂时不用管
     # 此处使用的是格林威治的时间，使用北京时间需要加8
   watch:
